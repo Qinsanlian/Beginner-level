@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2180" viewBox="0 0 1600 2180">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .title { font-family: Inter, Arial, sans-serif; font-size: 46px; font-weight: 800; fill: #f8fafc; }
+      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 22px; fill: #cbd5e1; }
+      .section-title { font-family: Inter, Arial, sans-serif; font-size: 28px; font-weight: 800; fill: #f8fafc; }
+      .node-title { font-family: Inter, Arial, sans-serif; font-size: 25px; font-weight: 800; fill: #f8fafc; }
+      .node-text { font-family: Inter, Arial, sans-serif; font-size: 18px; fill: #e2e8f0; }
+      .small { font-family: Inter, Arial, sans-serif; font-size: 16px; fill: #cbd5e1; }
+      .tiny { font-family: Inter, Arial, sans-serif; font-size: 14px; fill: #94a3b8; }
+      .core { fill: #172554; stroke: #3b82f6; stroke-width: 2; rx: 24; }
+      .evidence { fill: #052e16; stroke: #22c55e; stroke-width: 2; rx: 22; }
+      .phase { fill: #1e293b; stroke: #475569; stroke-width: 2; rx: 22; }
+      .gate { fill: #3f1d0b; stroke: #f97316; stroke-width: 2; rx: 22; }
+      .advanced { fill: #312e81; stroke: #8b5cf6; stroke-width: 2; rx: 22; }
+      .warning { fill: #450a0a; stroke: #ef4444; stroke-width: 2; rx: 22; }
+      .cs { fill: #0e7490; stroke: #67e8f9; stroke-width: 2; rx: 20; }
+      .line { stroke: #64748b; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #64748b; stroke-width: 2.5; stroke-dasharray: 8 8; fill: none; marker-end: url(#arrow); }
+      .badge { fill: #020617; stroke: #334155; stroke-width: 1.5; rx: 14; }
+      .badge-text { font-family: Inter, Arial, sans-serif; font-size: 15px; font-weight: 700; fill: #cbd5e1; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#64748b"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="2180"/>
+
+  <text class="title" x="800" y="86" text-anchor="middle">&#x843D;&#x5B9E;&#x7248;&#x6280;&#x80FD;&#x6811; v2.1</text>
+  <text class="subtitle" x="800" y="126" text-anchor="middle">&#x9AD8;&#x4E0A;&#x9650; &#x00B7; &#x4F4E;&#x6CE1;&#x6CAB; &#x00B7; &#x5F3A;&#x8BC1;&#x636E; &#x00B7; 24-27 Month Engineering Roadmap</text>
+
+  <rect class="core" x="110" y="180" width="1380" height="160" filter="url(#shadow)"/>
+  <text class="section-title" x="150" y="230">Positioning</text>
+  <text class="node-text" x="150" y="270">Current state: engineering zero-base, but strong reflection, AI collaboration sense, and long-term input can accelerate learning.</text>
+  <text class="node-text" x="150" y="306">Target: junior backend / DevOps-oriented / test-dev entry, with long-term focus on backend infrastructure and reliability.</text>
+
+  <rect class="evidence" x="110" y="380" width="1380" height="170" filter="url(#shadow)"/>
+  <text class="section-title" x="150" y="430">Global Hard Prerequisites</text>
+  <text class="node-text" x="150" y="470">English: README, issue notes, API docs, RCA, project explanation.</text>
+  <text class="node-text" x="150" y="505">Evidence: repo link, commit history, tests, run logs, limitations, troubleshooting notes.</text>
+  <text class="node-text" x="150" y="540">AI discipline: AI is coach, reviewer, and sparring partner; never a substitute for understanding.</text>
+
+  <path class="line" d="M800 550 L800 615"/>
+
+  <rect class="phase" x="110" y="620" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="140" y="665">Stage 0</text>
+  <text class="small" x="140" y="695">Week 0-4</text>
+  <text class="node-text" x="140" y="730">Reset execution system</text>
+  <text class="tiny" x="140" y="760">Git, Python env, tiny CLI</text>
+  <text class="tiny" x="140" y="782">3-4 weeks allowed for zero-base</text>
+
+  <rect class="phase" x="465" y="620" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="495" y="665">Stage 1</text>
+  <text class="small" x="495" y="695">Month 1-3</text>
+  <text class="node-text" x="495" y="730">Python + CS basics</text>
+  <text class="tiny" x="495" y="760">CLI, pytest, logging, GitHub</text>
+  <text class="tiny" x="495" y="782">process, HTTP, DNS, TCP basics</text>
+
+  <rect class="phase" x="820" y="620" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="850" y="665">Go Warm-up</text>
+  <text class="small" x="850" y="695">1 week before Stage 2</text>
+  <text class="node-text" x="850" y="730">Reduce language-switch shock</text>
+  <text class="tiny" x="850" y="760">Go Tour, tests, tiny HTTP handler</text>
+  <text class="tiny" x="850" y="782">Python errors vs Go errors</text>
+
+  <rect class="phase" x="1175" y="620" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="1205" y="665">Stage 2</text>
+  <text class="small" x="1205" y="695">Month 4-7</text>
+  <text class="node-text" x="1205" y="730">Go and HTTP service</text>
+  <text class="tiny" x="1205" y="760">handler, middleware, Docker</text>
+  <text class="tiny" x="1205" y="782">first real difficulty spike</text>
+
+  <path class="line" d="M420 710 L465 710"/>
+  <path class="line" d="M775 710 L820 710"/>
+  <path class="line" d="M1130 710 L1175 710"/>
+  <path class="line" d="M1330 800 C1330 870 270 870 270 940"/>
+
+  <rect class="phase" x="110" y="945" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="140" y="990">Stage 3</text>
+  <text class="small" x="140" y="1020">Month 8-10</text>
+  <text class="node-text" x="140" y="1055">Backend engineering loop</text>
+  <text class="tiny" x="140" y="1085">PostgreSQL, Redis, CI, API</text>
+  <text class="tiny" x="140" y="1107">Incident Tracker / Task API</text>
+
+  <rect class="phase" x="465" y="945" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="495" y="990">Stage 4</text>
+  <text class="small" x="495" y="1020">Month 11-13</text>
+  <text class="node-text" x="495" y="1055">Linux and network debug</text>
+  <text class="tiny" x="495" y="1085">curl, dig, ss, lsof, RCA</text>
+  <text class="tiny" x="495" y="1107">Fault Lab A: single-host/Docker</text>
+
+  <rect class="phase" x="820" y="945" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="850" y="990">Stage 5</text>
+  <text class="small" x="850" y="1020">Month 14-17</text>
+  <text class="node-text" x="850" y="1055">Containers and K8s practical</text>
+  <text class="tiny" x="850" y="1085">Pod, Service, probes, rollout</text>
+  <text class="tiny" x="850" y="1107">Fault Lab B: Kubernetes</text>
+
+  <rect class="phase" x="1175" y="945" width="310" height="180" filter="url(#shadow)"/>
+  <text class="node-title" x="1205" y="990">Stage 6</text>
+  <text class="small" x="1205" y="1020">Month 18-20</text>
+  <text class="node-text" x="1205" y="1055">Observability and SRE intro</text>
+  <text class="tiny" x="1205" y="1085">metrics, logs, traces, runbook</text>
+  <text class="tiny" x="1205" y="1107">3 months only if labs are solid</text>
+
+  <path class="line" d="M420 1035 L465 1035"/>
+  <path class="line" d="M775 1035 L820 1035"/>
+  <path class="line" d="M1130 1035 L1175 1035"/>
+  <path class="line" d="M1330 1125 C1330 1180 800 1180 800 1235"/>
+
+  <rect class="phase" x="590" y="1240" width="420" height="170" filter="url(#shadow)"/>
+  <text class="node-title" x="625" y="1285">Stage 7</text>
+  <text class="small" x="625" y="1315">Month 21-24 / 27</text>
+  <text class="node-text" x="625" y="1350">Cloud, IaC, CI/CD, resume</text>
+  <text class="tiny" x="625" y="1380">AWS/GCP, Terraform, release</text>
+  <text class="tiny" x="625" y="1402">24 months = high-intensity target line</text>
+
+  <rect class="gate" x="110" y="1460" width="1380" height="250" filter="url(#shadow)"/>
+  <text class="section-title" x="150" y="1510">Gates: evidence over slogans</text>
+  <text class="node-text" x="150" y="1550">Stage 0-1: CLI tools, pytest, English README, meaningful commits, lightweight CS basics.</text>
+  <text class="node-text" x="150" y="1585">Go warm-up + Stage 2: Go service, explicit errors, tests, Docker, API docs.</text>
+  <text class="node-text" x="150" y="1620">Stage 3-5: backend loop plus Fault Lab A/B: single-host, Docker, and K8s fault reproduction.</text>
+  <text class="node-text" x="150" y="1655">Stage 6-7: observability stories, release records, risk list, resume-ready evidence.</text>
+  <text class="tiny" x="150" y="1690">No Gate = no resume keyword.</text>
+
+  <path class="line" d="M800 1710 L800 1765"/>
+
+  <rect class="evidence" x="110" y="1770" width="420" height="250" filter="url(#shadow)"/>
+  <text class="node-title" x="145" y="1820">Core Project 1</text>
+  <text class="small" x="145" y="1850">Python tool project</text>
+  <text class="node-text" x="145" y="1895">Proves scripting, testing,</text>
+  <text class="node-text" x="145" y="1930">English docs, and CLI delivery.</text>
+  <text class="tiny" x="145" y="1980">Log analyzer / health checker</text>
+
+  <rect class="evidence" x="590" y="1770" width="420" height="250" filter="url(#shadow)"/>
+  <text class="node-title" x="625" y="1820">Core Project 2</text>
+  <text class="small" x="625" y="1850">Go backend project</text>
+  <text class="node-text" x="625" y="1895">Proves API, DB, Redis,</text>
+  <text class="node-text" x="625" y="1930">Docker, CI, and test loop.</text>
+  <text class="tiny" x="625" y="1980">Incident Tracker / Uptime Monitor</text>
+
+  <rect class="evidence" x="1070" y="1770" width="420" height="250" filter="url(#shadow)"/>
+  <text class="node-title" x="1105" y="1820">Core Project 3</text>
+  <text class="small" x="1105" y="1850">Observability + debugging lab</text>
+  <text class="node-text" x="1105" y="1895">Proves Linux, K8s, RCA,</text>
+  <text class="node-text" x="1105" y="1930">metrics, logs, and traces.</text>
+  <text class="tiny" x="1105" y="1980">Fault Lab A/B, alert, runbook</text>
+
+  <rect class="warning" x="110" y="2070" width="1380" height="70" filter="url(#shadow)"/>
+  <text class="node-text" x="150" y="2112">Principle: 24 months is possible with high-intensity execution; 25-27 months is the stable reality line. Gates are not optional.</text>
+</svg>
