@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="2550" viewBox="0 0 3200 2550" role="img" aria-label="支线目标卡片 v1">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      text{font-family:Inter,Arial,sans-serif}
+      .title{font-size:56px;font-weight:900;fill:#f8fafc;letter-spacing:.3px}
+      .subtitle{font-size:24px;fill:#cbd5e1}
+      .section{font-size:22px;font-weight:850;fill:#f8fafc}
+      .cardTitle{font-size:28px;font-weight:880;fill:#f8fafc}
+      .cardSub{font-size:18px;font-weight:720;fill:#cbd5e1}
+      .item{font-size:18px;fill:#e2e8f0}
+      .small{font-size:15px;fill:#94a3b8}
+      .gateText{font-size:17px;font-weight:820;fill:#fff7ed}
+      .root{fill:#0f172a;stroke:#38bdf8;stroke-width:3;rx:34}
+      .zone{fill-opacity:.16;stroke-width:2.5;rx:30}
+      .card{stroke-width:2.4;rx:24;filter:url(#shadow)}
+      .blue{fill:#172554;stroke:#60a5fa}.green{fill:#052e16;stroke:#86efac}.amber{fill:#3f2d0b;stroke:#facc15}.red{fill:#450a0a;stroke:#fca5a5}.purple{fill:#312e81;stroke:#c084fc}.cyan{fill:#164e63;stroke:#67e8f9}.slate{fill:#1e293b;stroke:#94a3b8}.teal{fill:#134e4a;stroke:#5eead4}.rose{fill:#4c0519;stroke:#fb7185}
+      .gate{fill:#7f1d1d;stroke:#fca5a5;stroke-width:1.6;rx:12}
+    </style>
+  </defs>
+
+  <rect width="3200" height="2550" fill="url(#bg)"/>
+
+  <g opacity="0.14">
+    <path d="M0 0H3200M0 100H3200M0 200H3200M0 300H3200M0 400H3200M0 500H3200M0 600H3200M0 700H3200M0 800H3200M0 900H3200M0 1000H3200M0 1100H3200M0 1200H3200M0 1300H3200M0 1400H3200M0 1500H3200M0 1600H3200M0 1700H3200M0 1800H3200M0 1900H3200M0 2000H3200M0 2100H3200M0 2200H3200M0 2300H3200M0 2400H3200M0 2500H3200" stroke="#334155"/>
+    <path d="M0 0V2550M100 0V2550M200 0V2550M300 0V2550M400 0V2550M500 0V2550M600 0V2550M700 0V2550M800 0V2550M900 0V2550M1000 0V2550M1100 0V2550M1200 0V2550M1300 0V2550M1400 0V2550M1500 0V2550M1600 0V2550M1700 0V2550M1800 0V2550M1900 0V2550M2000 0V2550M2100 0V2550M2200 0V2550M2300 0V2550M2400 0V2550M2500 0V2550M2600 0V2550M2700 0V2550M2800 0V2550M2900 0V2550M3000 0V2550M3100 0V2550M3200 0V2550" stroke="#334155"/>
+  </g>
+
+  <rect class="root" x="700" y="60" width="1800" height="140" filter="url(#shadow)"/>
+  <text class="title" x="1600" y="120" text-anchor="middle">两年支线目标卡片 v1</text>
+  <text class="subtitle" x="1600" y="162" text-anchor="middle">支持系统 / 反焦虑 / 职业侦察 / 可持续执行</text>
+
+  <rect class="zone" x="80" y="260" width="3040" height="430" fill="#1e3a8a" stroke="#60a5fa"/>
+  <rect class="zone" x="80" y="735" width="3040" height="900" fill="#14532d" stroke="#86efac"/>
+  <rect class="zone" x="80" y="1680" width="3040" height="530" fill="#4c1d95" stroke="#c084fc"/>
+  <rect class="zone" x="80" y="2255" width="3040" height="210" fill="#7f1d1d" stroke="#fca5a5"/>
+
+  <text class="section" x="115" y="300">定位与运行约定</text>
+  <text class="section" x="115" y="775">支线系统</text>
+  <text class="section" x="115" y="1720">时间线与外部校准</text>
+  <text class="section" x="115" y="2295">最终原则</text>
+
+  <g>
+    <rect class="card blue" x="120" y="330" width="720" height="310"/>
+    <text class="cardTitle" x="155" y="380">这是什么</text>
+    <text class="cardSub" x="155" y="414">不是技术路线图</text>
+    <text class="item" x="155" y="462">- 服务于主技能树</text>
+    <text class="item" x="155" y="498">- 保护长期执行</text>
+    <text class="item" x="155" y="534">- 减少焦虑驱动的路线变更</text>
+    <text class="item" x="155" y="570">- 保持生活、反馈与职业侦察稳定</text>
+  </g>
+
+  <g>
+    <rect class="card green" x="900" y="330" width="720" height="310"/>
+    <text class="cardTitle" x="935" y="380">两年目标</text>
+    <text class="cardSub" x="935" y="414">一套稳定的个人运转系统</text>
+    <text class="item" x="935" y="462">- 身体能承受长期学习</text>
+    <text class="item" x="935" y="498">- 情绪不重写计划</text>
+    <text class="item" x="935" y="534">- 信息输入保持干净</text>
+    <text class="item" x="935" y="570">- 沟通变得可靠且可合作</text>
+  </g>
+
+  <g>
+    <rect class="card red" x="1680" y="330" width="720" height="310"/>
+    <text class="cardTitle" x="1715" y="380">不重复原则</text>
+    <text class="cardSub" x="1715" y="414">不与主技能树重叠</text>
+    <text class="item" x="1715" y="462">- 不写语言或框架细节</text>
+    <text class="item" x="1715" y="498">- 不写后端或云实现细节</text>
+    <text class="item" x="1715" y="534">- 不展开排障工具</text>
+    <text class="item" x="1715" y="570">- 一旦变成技术任务，移回主树</text>
+  </g>
+
+  <g>
+    <rect class="card amber" x="2460" y="330" width="620" height="310"/>
+    <text class="cardTitle" x="2495" y="380">核心规则</text>
+    <text class="cardSub" x="2495" y="414">支线服务主线</text>
+    <text class="item" x="2495" y="462">- 不用支线逃避困难任务</text>
+    <text class="item" x="2495" y="498">- 不忽视支线风险直到崩盘</text>
+    <text class="item" x="2495" y="534">- 不追求英雄式燃烧</text>
+    <text class="item" x="2495" y="570">- 稳定胜过戏剧性</text>
+  </g>
+
+  <g>
+    <rect class="card green" x="120" y="825" width="560" height="300"/>
+    <text class="cardTitle" x="155" y="875">A. 身体续航</text>
+    <text class="cardSub" x="155" y="908">不让身体拖垮计划</text>
+    <text class="item" x="155" y="950">- 稳定睡眠，不用熬夜证明努力</text>
+    <text class="item" x="155" y="984">- 每日步行或低强度活动</text>
+    <text class="item" x="155" y="1018">- 每周力量或核心训练</text>
+    <text class="item" x="155" y="1052">- 月度疲惫检查</text>
+    <rect class="gate" x="155" y="1074" width="390" height="34"/>
+    <text class="gateText" x="175" y="1097">门禁：不出现连续两周无声崩盘</text>
+  </g>
+
+  <g>
+    <rect class="card red" x="730" y="825" width="560" height="300"/>
+    <text class="cardTitle" x="765" y="875">B. 反焦虑</text>
+    <text class="cardSub" x="765" y="908">把压力转化为行动</text>
+    <text class="item" x="765" y="950">- 不在深夜做人生判断</text>
+    <text class="item" x="765" y="984">- 不因一天低效重写路线</text>
+    <text class="item" x="765" y="1018">- 每日五行复盘</text>
+    <text class="item" x="765" y="1052">- 压力分级 1-4 级及应对方案</text>
+    <rect class="gate" x="765" y="1074" width="390" height="34"/>
+    <text class="gateText" x="785" y="1097">门禁：最小动作在焦虑中存续</text>
+  </g>
+
+  <g>
+    <rect class="card blue" x="1340" y="825" width="560" height="300"/>
+    <text class="cardTitle" x="1375" y="875">C. 执行系统</text>
+    <text class="cardSub" x="1375" y="908">让努力可度量</text>
+    <text class="item" x="1375" y="950">- 深度块、输入块、维护块</text>
+    <text class="item" x="1375" y="984">- 恢复块为必选项</text>
+    <text class="item" x="1375" y="1018">- 每周复盘问删掉什么</text>
+    <text class="item" x="1375" y="1052">- 状态差：只做最小块</text>
+    <rect class="gate" x="1375" y="1074" width="390" height="34"/>
+    <text class="gateText" x="1395" y="1097">门禁：执行先于规划</text>
+  </g>
+
+  <g>
+    <rect class="card cyan" x="1950" y="825" width="560" height="300"/>
+    <text class="cardTitle" x="1985" y="875">D. 信息卫生</text>
+    <text class="cardSub" x="1985" y="908">保护注意力远离恐慌内容</text>
+    <text class="item" x="1985" y="950">- 保留能产生行动的信息源</text>
+    <text class="item" x="1985" y="984">- 限制薪资炫耀和逆袭故事</text>
+    <text class="item" x="1985" y="1018">- 每月信息源清理</text>
+    <text class="item" x="1985" y="1052">- 不沉迷捷径</text>
+    <rect class="gate" x="1985" y="1074" width="410" height="34"/>
+    <text class="gateText" x="2005" y="1097">门禁：输入必须产生行动</text>
+  </g>
+
+  <g>
+    <rect class="card purple" x="2560" y="825" width="520" height="300"/>
+    <text class="cardTitle" x="2595" y="875">E. 职业侦察</text>
+    <text class="cardSub" x="2595" y="908">观察岗位，不做自我审判</text>
+    <text class="item" x="2595" y="950">- 每月收集 10 个真实 JD</text>
+    <text class="item" x="2595" y="984">- 记录要求与信号噪音</text>
+    <text class="item" x="2595" y="1018">- 每季度更新岗位地图</text>
+    <text class="item" x="2595" y="1052">- 不刷 JD 吓自己</text>
+    <rect class="gate" x="2595" y="1074" width="360" height="34"/>
+    <text class="gateText" x="2615" y="1097">门禁：侦察，而非审判</text>
+  </g>
+
+  <g>
+    <rect class="card teal" x="120" y="1180" width="560" height="300"/>
+    <text class="cardTitle" x="155" y="1230">F. 沟通</text>
+    <text class="cardSub" x="155" y="1263">变得可靠且可合作</text>
+    <text class="item" x="155" y="1305">- 说事实，不夸大</text>
+    <text class="item" x="155" y="1339">- 诚实说明限制</text>
+    <text class="item" x="155" y="1373">- 求助时带上下文与尝试</text>
+    <text class="item" x="155" y="1407">- 每月自我介绍与进展汇报</text>
+    <rect class="gate" x="155" y="1429" width="400" height="34"/>
+    <text class="gateText" x="175" y="1452">门禁：清晰、冷静、适配异步</text>
+  </g>
+
+  <g>
+    <rect class="card amber" x="730" y="1180" width="560" height="300"/>
+    <text class="cardTitle" x="765" y="1230">G. 公开记录</text>
+    <text class="cardSub" x="765" y="1263">学徒日志，而非导师内容</text>
+    <text class="item" x="765" y="1305">- 每周最多一条记录</text>
+    <text class="item" x="765" y="1339">- 发生了什么、失败在哪、改变了什么</text>
+    <text class="item" x="765" y="1373">- 不做路线布道</text>
+    <text class="item" x="765" y="1407">- 不用焦虑故事换关注</text>
+    <rect class="gate" x="765" y="1429" width="400" height="34"/>
+    <text class="gateText" x="785" y="1452">门禁：记录证据，而非身份</text>
+  </g>
+
+  <g>
+    <rect class="card green" x="1340" y="1180" width="560" height="300"/>
+    <text class="cardTitle" x="1375" y="1230">H. 生活风险控制</text>
+    <text class="cardSub" x="1375" y="1263">利用资源，但不被资源支配</text>
+    <text class="item" x="1375" y="1305">- 每季度检查成本与缓冲</text>
+    <text class="item" x="1375" y="1339">- 不用消费缓解焦虑</text>
+    <text class="item" x="1375" y="1373">- 不拒绝合理支持</text>
+    <text class="item" x="1375" y="1407">- 避免低质量工作，除非必要</text>
+    <rect class="gate" x="1375" y="1429" width="410" height="34"/>
+    <text class="gateText" x="1395" y="1452">门禁：资源换取训练时间</text>
+  </g>
+
+  <g>
+    <rect class="card slate" x="1950" y="1180" width="560" height="300"/>
+    <text class="cardTitle" x="1985" y="1230">I. 面试节奏</text>
+    <text class="cardSub" x="1985" y="1263">提前准备，不提前恐慌</text>
+    <text class="item" x="1985" y="1305">- 第 0-6 月：仅观察</text>
+    <text class="item" x="1985" y="1339">- 第 7-12 月：低风险试水</text>
+    <text class="item" x="1985" y="1373">- 第 13-18 月：每月模拟面试</text>
+    <text class="item" x="1985" y="1407">- 第 19-27 月：固定投递窗口</text>
+    <rect class="gate" x="1985" y="1429" width="400" height="34"/>
+    <text class="gateText" x="2005" y="1452">门禁：反馈，而非自我摧毁</text>
+  </g>
+
+  <g>
+    <rect class="card rose" x="2560" y="1180" width="520" height="300"/>
+    <text class="cardTitle" x="2595" y="1230">J. 退路边界</text>
+    <text class="cardSub" x="2595" y="1263">缓冲垫，而非身份</text>
+    <text class="item" x="2595" y="1305">- 不妖魔化退路</text>
+    <text class="item" x="2595" y="1339">- 不用退路为拖延找借口</text>
+    <text class="item" x="2595" y="1373">- 不拒绝合理支持</text>
+    <text class="item" x="2595" y="1407">- 每半年边界检查</text>
+    <rect class="gate" x="2595" y="1429" width="360" height="34"/>
+    <text class="gateText" x="2615" y="1452">门禁：缓冲，而非逃避</text>
+  </g>
+
+  <g>
+    <rect class="card cyan" x="120" y="1770" width="720" height="340"/>
+    <text class="cardTitle" x="155" y="1820">季度岗位地图</text>
+    <text class="cardSub" x="155" y="1853">每 3 个月更新一次</text>
+    <text class="item" x="155" y="1895">- 哪些岗位开始接近？</text>
+    <text class="item" x="155" y="1931">- 哪些岗位仍然过高？</text>
+    <text class="item" x="155" y="1967">- 哪些要求反复出现？</text>
+    <text class="item" x="155" y="2003">- 哪些词只是噪音？</text>
+    <text class="item" x="155" y="2039">- 下一季度需要什么证据？</text>
+  </g>
+
+  <g>
+    <rect class="card purple" x="900" y="1770" width="720" height="340"/>
+    <text class="cardTitle" x="935" y="1820">外部校准</text>
+    <text class="cardSub" x="935" y="1853">把岗位地图发给可信的外部视角</text>
+    <text class="item" x="935" y="1895">- 区分真实差距与过早焦虑</text>
+    <text class="item" x="935" y="1931">- 识别已经被覆盖的要求</text>
+    <text class="item" x="935" y="1967">- 标注 JD 关键词堆砌并过滤噪音</text>
+    <text class="item" x="935" y="2003">- 决定下一步补充什么证据</text>
+    <rect class="gate" x="935" y="2030" width="500" height="36"/>
+    <text class="gateText" x="955" y="2054">目的：外部视角，而非审判</text>
+  </g>
+
+  <g>
+    <rect class="card green" x="1680" y="1770" width="620" height="340"/>
+    <text class="cardTitle" x="1715" y="1820">反馈系统</text>
+    <text class="cardSub" x="1715" y="1853">现实检查防止闭门造车</text>
+    <text class="item" x="1715" y="1895">- 项目试用反馈</text>
+    <text class="item" x="1715" y="1931">- 简历反馈</text>
+    <text class="item" x="1715" y="1967">- 模拟面试反馈</text>
+    <text class="item" x="1715" y="2003">- 投递与拒信反馈</text>
+    <rect class="gate" x="1715" y="2030" width="420" height="36"/>
+    <text class="gateText" x="1735" y="2054">反馈是校准</text>
+  </g>
+
+  <g>
+    <rect class="card amber" x="2360" y="1770" width="720" height="340"/>
+    <text class="cardTitle" x="2395" y="1820">24-27 个月时间线</text>
+    <text class="cardSub" x="2395" y="1853">支线按阶段推进</text>
+    <text class="item" x="2395" y="1895">- 第 0-3 月：睡眠、运动、复盘、信息源清理</text>
+    <text class="item" x="2395" y="1931">- 第 4-6 月：节奏稳定与第一份岗位地图</text>
+    <text class="item" x="2395" y="1967">- 第 7-12 月：低风险投递与反馈</text>
+    <text class="item" x="2395" y="2003">- 第 13-18 月：职业化讲解与模拟面试</text>
+    <text class="item" x="2395" y="2039">- 第 19-27 月：固定投递节奏与校准</text>
+  </g>
+
+  <g>
+    <rect class="card red" x="120" y="2325" width="2960" height="105"/>
+    <text class="cardTitle" x="155" y="2370">最终原则</text>
+    <text class="item" x="155" y="2410">主线决定你能不能拿到录用。支线决定你能不能持续走到拿到录用那一天。</text>
+  </g>
+
+  <text class="small" x="1600" y="2495" text-anchor="middle">不用支线逃避主线。不忽视支线风险直到主线崩盘。</text>
+</svg>
